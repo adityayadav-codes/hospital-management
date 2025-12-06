@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 3000);
     };
 
-    // Validate fields
     const validateField = (input) => {
         if (!input.value.trim()) {
             input.classList.add("error");
